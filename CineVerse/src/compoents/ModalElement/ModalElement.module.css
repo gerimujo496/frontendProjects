@@ -1,0 +1,26 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    justify-content: space-between;
+}
+.quantityContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:1rem;
+    cursor: pointer;
+}
+.titleWidth{
+    width: 30%;
+    user-select: none;
+}
+.canNotSelectStyle{
+    user-select: none;
+}
+
+.priceContainer{
+    user-select: none;
+    width: 14%;
+}

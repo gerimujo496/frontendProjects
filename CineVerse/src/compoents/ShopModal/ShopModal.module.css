@@ -1,0 +1,18 @@
+.modalContainer{
+    display: flex;
+    flex-direction: column;
+   
+    gap:1rem;
+}
+.lightMode{
+    cursor: pointer;
+    color:black,
+    
+    
+}.darkMode{
+    cursor: pointer;
+    color: white;
+}
+.canNotSelect{
+    user-select: none;
+}

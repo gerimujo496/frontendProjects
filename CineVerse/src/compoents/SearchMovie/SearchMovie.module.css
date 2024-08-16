@@ -1,0 +1,58 @@
+.posterImage{
+    width:70%
+}
+.seachMovieContainer{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   gap:1rem;
+    height: 80vh;
+   padding: 40px;
+}
+.overview{
+    width:70%
+}
+.darkMode{
+    background-color: black;
+    color:white;
+}
+.lightMode{
+    background-color: white;
+    color:black;
+}
+@media only screen and (max-width: 1000px) {
+    .seachMovieContainer{
+        
+        width: 100vw;
+        height: 100%;
+        padding: 40px 40px;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+    .title{
+       font-size: 30px;
+       width: 70%;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .seachMovieContainer{
+        width: 100vw;
+        height: 100%;
+        padding: 40px 40px;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+    .title{
+       font-size: 20px;
+    }
+    .overview{
+        font-size: 13px;
+        width:50%;
+    }
+}

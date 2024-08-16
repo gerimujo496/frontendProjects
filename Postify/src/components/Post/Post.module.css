@@ -1,0 +1,40 @@
+.postContainer{
+    border: 1px black solid;
+    border-radius: 30px ;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:1rem
+}
+.postHearder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.timePosted{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.deleteIcon{
+    font-size: 40px;
+    cursor: pointer;
+}
+.likeContainer{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+gap:0.1rem
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.4rem;
+    font-size: 21px;
+    cursor: pointer;
+}

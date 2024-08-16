@@ -1,0 +1,9 @@
+.WeatherAppContainer{
+    height:100vh
+
+}
+.weatherContainer{
+    margin:0;
+    padding:100px 200px;
+    box-sizing: border-box;
+}

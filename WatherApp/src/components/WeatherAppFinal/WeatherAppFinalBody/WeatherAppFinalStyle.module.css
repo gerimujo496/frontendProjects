@@ -1,0 +1,23 @@
+.weatherBody{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+}
+.WeatherAppFinalBodyContainer{
+    width: fit-content;
+    padding:100px 500px;
+}
+.bigIcon{
+    font-size: 400px;
+}
+.temperature{
+    font-size: 160px;
+    font-weight: 500;
+}
+.weatherDescription{
+    font-size: 40px;
+    font-weight: 100;
+}
+.temperatureAndDescription{
+    padding: 40px 00px;
+}

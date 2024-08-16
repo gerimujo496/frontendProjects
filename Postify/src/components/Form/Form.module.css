@@ -1,0 +1,38 @@
+.inputForm{
+    width: 100%;
+    margin: 20px;
+    border: none;
+    border-bottom: 1px rgba(0, 0, 0, 0.532) solid ;
+    font-size: 20px;
+}
+.formContainer{
+    margin: 100px 180px;
+    width:70%;
+    border:1px black solid;
+    padding: 50px 90px;
+    border-radius: 20px;
+}
+.button{
+    width: 100%;
+    margin: 20px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.title{
+    margin:30px;
+    width: 100%;
+    text-align: center;
+   
+}
+.icons{
+    margin-left: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+.icons:hover{
+    width: fit-content;
+    cursor: pointer;
+}

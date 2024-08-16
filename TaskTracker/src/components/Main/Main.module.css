@@ -1,0 +1,13 @@
+.tasksContainer{
+    display:flex ;
+    flex-direction: column;
+    gap:2rem;
+    height:400px;
+    
+    overflow:scroll;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:8rem;
+}

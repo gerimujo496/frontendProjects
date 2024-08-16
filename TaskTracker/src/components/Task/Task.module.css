@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:1px black solid;
+    border-radius: 10px;
+    padding: 20px 60px;
+    align-items: center;
+   box-sizing: border-box;
+   height: 100px;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}.title{
+    font-size: 30px;
+}
+.completed{
+    text-decoration: line-through;
+}
+.low{
+    background-color: rgb(112, 205, 252);
+}
+.medium{
+    background-color: rgb(255, 199, 95);
+}
+.high{
+    background-color: rgb(250, 112, 112);
+}
+.backgroundComplete{
+    opacity: 0.5;
+}

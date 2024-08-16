@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    height: 100vh;
+    width:100vw;
+    padding:30px 40px
+}
+.moviesContainer{
+   
+    width: 100%;
+   height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    flex-wrap: wrap;
+    padding: 100px 100px;
+  
+}
+.darkMode{
+    background-color: black;
+}
+.lightMode{
+    background-color: white;
+}
+@media only screen and (max-width: 1600px) {
+    .moviesContainer{
+        width:100vw;
+        
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap:3rem;
+        flex-wrap: wrap;
+        padding: 80px 50px;
+        overflow: auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .moviesContainer{
+        width: fit-content;
+        
+       height: fit-content;
+        display: flex;
+        flex-direction: row;
+        gap:3rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+        overflow: auto;
+    }}

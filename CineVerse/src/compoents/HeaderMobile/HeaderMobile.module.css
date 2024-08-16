@@ -1,0 +1,145 @@
+.headerDesktop{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
+.avatar{
+    font-size: 160px;
+}
+.searchBar{
+width: 70%;
+}
+.toggle{
+    scale: 1.4;
+    
+}
+.notifications{
+    font-size: 30px;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+.lightMode{
+     color: black;
+}
+.darkMode{
+    color: white;
+}
+.headerMobile{
+    display: none;
+}
+.mobileHeaderButtons{
+    display: flex;
+    gap:3rem
+}
+.favoriteSection{
+    cursor: pointer;
+}
+@media  only screen and  (max-width: 1600px) {
+    .headerDesktop{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       width: 100%;
+       align-items: center;
+    }
+    
+    .searchBar{
+    width: 60%;
+    }
+    .toggle{
+        scale: 1.2;
+        
+    }
+  
+}
+@media  only screen and  (max-width: 1200px) {
+    .headerDesktop{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       width: 100%;
+       align-items: center;
+    }
+    
+    .searchBar{
+    width: 60%;
+    }
+    .toggle{
+        scale: 1;
+        
+    }
+   
+   
+}
+@media  only screen and  (max-width: 800px) {
+    .headerDesktop{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       width: 100%;
+       align-items: center;
+    }
+    
+    .searchBar{
+    width: 40%;
+    }
+    .toggle{
+        scale: 0.8;
+        
+    }
+    .lightMode{
+        color: black;
+        font-size: 20px;
+   }
+   .darkMode{
+       color: white;
+
+       font-size: 20px;
+   }
+   
+}
+@media  only screen and  (max-width: 500px) {
+    .headerDesktop{
+        display: none;
+       
+    }
+    .headerSection1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .headerMobile{
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+       gap: 1rem;
+       width: 100%;
+       align-items: center;
+    }
+    
+    .searchBar{
+    width: 80%;
+    }
+    .toggle{
+        scale: 0.8;
+        
+    }
+    .lightMode{
+        color: black;
+        font-size: 20px;
+        
+   }
+   .darkMode{
+       color: white;
+
+       font-size: 20px;
+   }
+   
+}
